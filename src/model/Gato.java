@@ -64,7 +64,7 @@ public class Gato {
     }
 }
 
-class Livro {
+class Livros{
     private String nome;
     private Integer numpaginas;
 
@@ -94,7 +94,7 @@ class Livro {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Livro livro = (Livro) o;
+        Livros livro = (Livros) o;
         return Objects.equals(nome, livro.nome) && Objects.equals(numpaginas, livro.numpaginas);
     }
 
